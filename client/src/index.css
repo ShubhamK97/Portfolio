@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+*{
+    font-family: 'montserrat',sans-serif !important;
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #0A192F;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #042f4881; 
+  border-radius: 10px;
+}
+
+i{
+  cursor:pointer
+}
+
+i:hover{
+  color:#f5f5f5
+}
+
+.s{
+  animation: s 1s infinite;
+}
+
+@keyframes s{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.k{
+  animation: k 1s infinite;
+}
+
+@keyframes k{
+  0%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
